@@ -1828,7 +1828,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
    Component: Navbar
  ========================================================================== */
 .uk-navbar {
-  background: #eeeeee;
+  background: #ffffff;
   color: #444444;
 }
 /*
@@ -1889,7 +1889,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-navbar-nav > li:hover > a,
 .uk-navbar-nav > li > a:focus,
 .uk-navbar-nav > li.uk-open > a {
-  background-color: #f5f5f5;
+  /*background-color: #cf6000;*/
   color: #444444;
   /* 3 */
   outline: none;
@@ -1901,8 +1901,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 }
 /* Active */
 .uk-navbar-nav > li.uk-active > a {
-  background-color: #f5f5f5;
-  color: #444444;
+  background-color: #cf6000;
+  color: #efefef;
 }
 /* Sub-objects: `uk-navbar-nav-subtitle`
  ========================================================================== */
@@ -3378,13 +3378,13 @@ select.uk-form-width-mini {
 /* Hover */
 .uk-button-primary:hover,
 .uk-button-primary:focus {
-  background-color: #ff5000;
+  background-color: #000000;
   color: #ffffff;
 }
 /* Active */
 .uk-button-primary:active,
 .uk-button-primary.uk-active {
-  background-color: #ff5000;
+  background-color: #000000;
   color: #ffffff;
 }
 /*
